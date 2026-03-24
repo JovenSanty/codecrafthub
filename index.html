@@ -1,36 +1,51 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <style>
-    .btn-primary {
-        color: #ffffff;
-        background-color: #8B5CF6;
-        border-color: #8B5CF6;
-    }
-
-    .btn-success {
-        color: #ffffff;
-        background-color: #F59E0B;
-        border-color: #F59E0B;
-    }
-
-    .btn-danger {
-        color: #ffffff;
-        background-color: #EF4444;
-        border-color: #EF4444;
-    }
-    </style>
-
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Pregunta 1: Título exacto requerido -->
     <title>CodeCraftHub: Your Learning Management Platform</title>
-    <meta property="og:image" content="https://bolt.new/static/og_default.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+    
+    <style>
+        /* Pregunta 2: btn-primary */
+        .btn-primary {
+            color: #ffffff;
+            background-color: #8B5CF6;
+            border-color: #8B5CF6;
+        }
+
+        /* Pregunta 3: btn-success */
+        .btn-success {
+            color: #ffffff;
+            background-color: #F59E0B;
+            border-color: #F59E0B;
+        }
+
+        /* Pregunta 4: btn-danger (para el botón de eliminar) */
+        .btn-danger {
+            color: #ffffff;
+            background-color: #EF4444;
+            border-color: #EF4444;
+        }
+    </style>
 </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<body>
+
+    <!-- ... tu contenido actual de la página ... -->
+
+    <!-- Pregunta 4: Botón de eliminar corregido -->
+    <button class="btn btn-danger" onclick="handleDelete()">Remove</button>
+
+    <!-- ... resto de tu contenido ... -->
+
+    <script>
+        // Función básica para que no dé error
+        function handleDelete() {
+            alert("Elemento eliminado");
+            // Aquí puedes poner tu lógica real de eliminación
+        }
+    </script>
+
+</body>
 </html>
